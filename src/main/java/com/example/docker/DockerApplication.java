@@ -11,7 +11,7 @@ public class DockerApplication {
 	
 	@GetMapping("/mesage")
 	public String getMessage() {
-		return "Dockerization";
+		return "Cicd";
 	}
 
 	public static void main(String[] args) {
