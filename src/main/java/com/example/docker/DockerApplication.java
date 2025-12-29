@@ -11,7 +11,7 @@ public class DockerApplication {
 	
 	@GetMapping("/mesage")
 	public String getMessage() {
-		return "Cicd";
+		return "Cicd Automation pipeline";
 	}
 
 	public static void main(String[] args) {
