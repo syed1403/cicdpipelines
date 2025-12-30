@@ -1,4 +1,4 @@
 FROM eclipse-temurin:17-jdk
-COPY target/integration.jar integration.jar
+COPY target/docker-integration.jar docker-integration.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/integration.jar"]
+ENTRYPOINT ["java","-jar","/docker-integration.jar"]
