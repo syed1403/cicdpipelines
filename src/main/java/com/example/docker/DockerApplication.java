@@ -11,11 +11,16 @@ public class DockerApplication {
 	
 	@GetMapping("/mesage")
 	public String getMessage() {
-		return "Automation Process From jenkins File";
+		return "docker file to be created ";
 	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DockerApplication.class, args);
 	}
+	
+	public static void main1(String[] args) {
+	}
+
+
 
 }

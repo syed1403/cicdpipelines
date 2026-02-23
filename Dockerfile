@@ -1,4 +1,8 @@
 FROM eclipse-temurin:17-jdk
-COPY target/Cdpipeline.jar Cdpipeline.jar
+COPY target/dok.jar dok.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/Cdpipeline.jar"]
+ENTRYPOINT ["java","-jar","/dok.jar"]
+
+
+
+
