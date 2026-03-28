@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerApplication {
 	
-	@GetMapping("/mesage")
+	@GetMapping("/mesag")
 	public String getMessage() {
 		return "docker file to be created ";
 	}
